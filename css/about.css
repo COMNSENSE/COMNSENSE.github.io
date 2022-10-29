@@ -1,4 +1,4 @@
-npm innh4, h5 {
+h4, h5 {
     font-weight: 700;
     letter-spacing: 0.05em;
 }
@@ -40,7 +40,7 @@ npm innh4, h5 {
     text-align: center;
     justify-content: space-between;
     border-radius: 10px 10px 0 0;
-    background-color: #00ABB3;
+    background-color: #7EB77F;
 }
 
 #terminal-title {
@@ -61,7 +61,7 @@ npm innh4, h5 {
     padding: 20px;
     border-radius: 0 0 10px 10px;
     text-align: left;
-    border: 1px solid #00ABB3;
+    border: 1px solid #7EB77F;
 }
 
 .terminal-window div, .terminal-window div p {
@@ -79,7 +79,7 @@ npm innh4, h5 {
 
 .input::before {
     content: ">\A0";
-    color: #00ABB3;
+    color: #7EB77F;
     font-weight: 700;
 }
 
@@ -114,7 +114,7 @@ npm innh4, h5 {
 }
 
 .card-info p a:hover {
-    color: #8cf0C3;
+    color: #F08CAE;
 }
 
 .card-description {
@@ -150,7 +150,7 @@ npm innh4, h5 {
 .skill {
     border-radius: 12px;
     margin: 10px;
-    border: 2px solid #00ABB3;
+    border: 2px solid #7EB77F;
     padding: 8px 10px;
     display: flex;
     align-items: center;
@@ -180,7 +180,7 @@ npm innh4, h5 {
 }
 
 .social-media-item:hover {
-    color: #8cf0C3;
+    color: #F08CAE;
 }
 
 .social-media-item i {
