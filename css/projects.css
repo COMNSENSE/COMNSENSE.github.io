@@ -37,7 +37,7 @@
 }
 
 .has-no-preview .card-info {
-    border-radius: 10px;
+    border-radius: 1px;
 }
 
 .title-and-links {
@@ -48,7 +48,7 @@
 }
 
 .project-title {
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: 700;
     letter-spacing: 0.05em;
     color: #1D263B;
@@ -64,7 +64,7 @@
 }
 
 .project-links a i {
-    color: #0fa3B1;
+    color: blue;
     font-size: 1.2em;
     transition: all 0.2s ease;
 }
@@ -72,7 +72,7 @@
 .project-links a i:hover {
     font-size: 1.25em;
     padding: 2px 5px;
-    color: #7EB77F;
+    color: blueviolet;
 }
 
 .project-links a:last-child {

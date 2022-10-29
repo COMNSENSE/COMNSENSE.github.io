@@ -1,26 +1,42 @@
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #yellowgreen;
     scroll-behavior: smooth;
 }
 
-body {
+header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 70px;
+    padding: 0 15px;
+    z-index: 2;
+    background-color: color(display-p3 0.068 0.04431 0.28903);
+
+body 
     background-color: #1D263B;
 }
 
-h1, h2, h3 {
+
+  
+h1, h2, h3  
     font-family: 'Fira Mono', monospace;
 }
 
 h2 {
     margin: 0 auto;
     text-align: center;
-    font-size: 1.75em;
+    font-size: 1.3em;
     font-weight: 700;
 }
 
@@ -37,6 +53,11 @@ a, span {
     font-size: inherit;
     font-weight: inherit;
 }
+
+
+
+
+
 
 .green {
     color: #7EB77F;
@@ -69,11 +90,11 @@ ul {
     margin: 0 auto;
     padding: 0 25px;
     text-align: center;
-    max-width: 1600px;
+    max-width: auto;
 }
 
 section {
-    margin: 0 auto;
+    margin: 2auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,6 +133,16 @@ section .hyperlink:hover {
     width: auto;
     margin-right: 20px;
 }
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 2.5em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+}
+
 
 @media only screen and (min-width: 768px) {
     h2 {
