@@ -5,6 +5,7 @@ em {
 .projects {
     padding-top: 100px;
     max-width: 1200px;
+
 }
 
 .project-cards-container {
@@ -70,13 +71,13 @@ em {
 }
 
 .project-links a i:hover {
-    font-size: 1.25em;
+    font-size: 1.7em;
     padding: 2px 5px;
     color: #7EB77F;
 }
 
 .project-links a:last-child {
-    margin-left: 5px;
+    margin-left: auto;
 }
 
 .project-skills {
@@ -103,7 +104,7 @@ em {
 @media only screen and (min-width: 768px) {
     .project-cards-container {
         column-count: 2;
-        column-gap: 2em;
+        column-gap: 1em;
     }
 }
 
@@ -167,7 +168,7 @@ ul {
 }
 
 .social-link a i {
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 .social-link a i:hover {
@@ -185,13 +186,13 @@ section {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: auto;
     text-align: left;
     padding-top: 8vh;
 }
 
 section .hyperlink {
-    color: #F08CAE;
+    color: ; "blue"
     font-weight: 700;
     text-decoration: underline;
     transition: all 0.2s ease;
