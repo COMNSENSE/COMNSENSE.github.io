@@ -79,7 +79,7 @@ ul {
 }
 
 .social-link a i {
-    transition: all 0.2s ease;
+    transition: all 0.4s ease;
 }
 
 .social-link a i:hover {
@@ -106,7 +106,7 @@ section .hyperlink {
     color: #0fa3B1;
     font-weight: 700;
     text-decoration: underline;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 section .hyperlink:hover {
