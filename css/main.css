@@ -22,14 +22,16 @@ header {
     padding: 0 15px;
     z-index: 2;
     background-color: color(display-p3 0.068 0.04431 0.28903);
+}
 
-body 
-    background-color: #1D263B;
+
+body{ 
+    background-color: #F08CAE;
 }
 
 
   
-h1, h2, h3  
+h1, h2, h3 { 
     font-family: 'Fira Mono', monospace;
 }
 
