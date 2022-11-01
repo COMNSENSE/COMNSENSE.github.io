@@ -1,44 +1,136 @@
- {
+em {
+    color: #1D263B;
+}
+
+.projects {
+    padding-top: 100px;
+    max-width: 1200px;
+
+}
+
+.project-cards-container {
+    margin-top: 50px;
+    height: fit-content;
+    height: moz-fit-content;
+}
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    color: #1D263B;
+}
+
+.card:not(:last-child) {
+    margin: 0 auto 2em auto;
+}
+
+.card-preview-img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    padding: 7px;
+    background-color: #eeeeee6e;
+}
+
+.card-info {
+    padding: 25px;
+    background-color:#1d263b1f;
+    border-radius: 0 0 10px 10px;
+}
+
+.has-no-preview .card-info {
+    border-radius: 10px;
+}
+
+.title-and-links {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-size: 1.2em;
+    font-weight: content: '\F0068';;
+    letter-spacing: 0.05em;
+    color: #1D263B;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: flex;
+}
+
+.project-links a i {
+    padding: 5px;
+}
+
+.project-links a i {
+    color: #187cb7;
+    font-size: 1.4em;
+    transition: all 0.4s ease;
+}
+
+.project-links a i:hover {
+    font-size: 1.7em;
+    padding: 2px 5px;
+    color: #187cb7;
+}
+
+.project-links a:last-child {
+    margin-left: auto;
+}
+
+.project-skills {
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #7EB77F;
+}
+
+.project-skills span {
+    color: #0FA3B1;
+    font-weight: 700;
+    font-size: 1 em;
+    letter-spacing: 0.05em;
+}
+
+.project-skills span:not(:last-child) {
+    margin-right: 10px;
+}
+
+.project-description {
+    color: #0c5e63;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-cards-container {
+        column-count: 2;
+        column-gap: 1em;
+    }
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    color: #yellowgreen;
+    color: #FFFFFF;
     scroll-behavior: smooth;
 }
 
-header {
-    margin: 0 auto;
-    width: 100%;
-    max-width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    height: 70px;
-    padding: 0 15px;
-    z-index: 2;
-    background-color: color(display-p3 0.068 0.04431 0.28903);
+body {
+    background-color:#2e448cf0
 }
 
-
-body{ 
-    background-color: #F08CAE;
-}
-
-
-  
-h1, h2, h3 { 
+h1, h2, h3 {
     font-family: 'Fira Mono', monospace;
 }
 
 h2 {
     margin: 0 auto;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 700;
 }
 
@@ -56,24 +148,19 @@ a, span {
     font-weight: inherit;
 }
 
-
-
-
-
-
 .green {
-    color: #7EB77F;
+    color:#8bc34a;
 }
 
 .bold {
     font-weight: 700;
 }
 
-.pink {
+.green {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
-    color: #0fa3B1;
+    color:#8bc34a;
 }
 
 ul {
@@ -81,34 +168,34 @@ ul {
 }
 
 .social-link a i {
-    transition: all 0.4s ease;
+    transition: all 00.3s ease;
 }
 
 .social-link a i:hover {
-    color: #0fa3B1;
+    color: #187cb7;
 }
 
 .main-container {
     margin: 0 auto;
     padding: 0 25px;
     text-align: center;
-    max-width: auto;
+    max-width: 1600px;
 }
 
 section {
-    margin: 2auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: auto;
     text-align: left;
     padding-top: 8vh;
 }
 
 section .hyperlink {
-    color: #0fa3B1;
+    color: #306788;
     font-weight: 700;
     text-decoration: underline;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 section .hyperlink:hover {
@@ -116,15 +203,15 @@ section .hyperlink:hover {
 }
 
 .section-description {
-    margin: 50px auto 0 auto;
+    margin: 25px auto;
     text-align: center;
     max-width: 1000px;
-    line-height: 1.5em;
+    line-height: 1.4em;
     letter-spacing: 0.025em;
 }
 
 .page-title {
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,17 +225,7 @@ section .hyperlink:hover {
 
 @media only screen and (min-width: 768px) {
     h2 {
-        font-size: 2.5em;
-    }
-    h3 {
-        font-size: 2em;
-    }
-}
-
-
-@media only screen and (min-width: 768px) {
-    h2 {
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
     h3 {
         font-size: 2em;

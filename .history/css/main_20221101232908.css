@@ -11,7 +11,7 @@ em {
 .project-cards-container {
     margin-top: 50px;
     height: fit-content;
-    height: -moz-fit-content;
+    height: moz-fit-content;
 }
 
 .card {
@@ -89,7 +89,7 @@ em {
 .project-skills span {
     color: #0FA3B1;
     font-weight: 700;
-    font-size: 0.9em;
+    font-size: 1 em;
     letter-spacing: 0.05em;
 }
 
@@ -98,7 +98,7 @@ em {
 }
 
 .project-description {
-    color: #216d98;
+    color: #0c5e63;
 }
 
 @media only screen and (min-width: 768px) {
@@ -113,14 +113,14 @@ em {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     color: #FFFFFF;
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #8e782ac3;
+    background-color:#2e448cf0
 }
 
 h1, h2, h3 {
@@ -149,7 +149,7 @@ a, span {
 }
 
 .green {
-    color: #1d263b;
+    color:#8bc34a;
 }
 
 .bold {
@@ -160,7 +160,7 @@ a, span {
     font-family: inherit;
     font-size: inherit;
     font-weight: inherit;
-    color: #2e448c;
+    color:#8bc34a;
 }
 
 ul {
@@ -168,7 +168,7 @@ ul {
 }
 
 .social-link a i {
-    transition: all 0.4s ease;
+    transition: all 00.3s ease;
 }
 
 .social-link a i:hover {
@@ -192,7 +192,7 @@ section {
 }
 
 section .hyperlink {
-    color: #187cb7;
+    color: #306788;
     font-weight: 700;
     text-decoration: underline;
     transition: all 0.5s ease;
